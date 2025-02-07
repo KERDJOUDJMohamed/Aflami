@@ -1,8 +1,32 @@
-# React + Vite
+# Aflami 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aflami is a React-based mini project that serves as a movie directory, allowing users to browse and manage their favorite movies.
 
-Currently, two official plugins are available:
+## 📌 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse movies with posters and release years
+- Add or remove movies from the favorites list
+- Favorites are saved in `localStorage` for persistence
+
+## 🚀 Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/aflami.git
+   cd aflami
+   ```
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+3. **Run the project**
+   ```bash
+   npm start
+   ```
+
+## 🛠️ Technologies Used
+
+- **React** (with Hooks & Context API)
+- **TMDb API** for fetching movie posters
+- **LocalStorage** for storing favorite movies
+- **CSS** for styling
